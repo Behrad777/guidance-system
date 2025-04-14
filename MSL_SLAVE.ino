@@ -5,7 +5,7 @@
 using namespace std;
 char recv_req[32];
 //msl on arduino
-RF24 radio(9, 10); //CE CSN pins to esp32
+RF24 radio(9, 10); //CE CSN pins to arduino, needs to be esp32 for more current
 uint8_t txAddress[] = "gndrec";
 uint8_t rxAddress[] = "mslrec";
 
