@@ -85,7 +85,7 @@ void loop() {
       if (radio.available()) {
         radio.read(&reply, sizeof(reply));
          Serial.print("Received: ");
-          for (int i = 0; i < 32; i++) {  // adjust based on how many bytes you send
+          for (int i = 0; i < 32; i++) {  //always 32 byte receive 
             Serial.print("0x");
             Serial.print(reply[i], HEX);
             Serial.print(" ");
