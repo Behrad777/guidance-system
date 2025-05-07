@@ -19,7 +19,7 @@ char reply[32];
 byte cipher[32];
 byte msg_out[32];
 String key="yeahhhhbabyyyyyy";// 16 bytes
-String iv="bigbyomboballs77"; //16 bytes
+String iv="bigbyombomanss77"; //16 bytes
 
 void do_encrypt(byte msg[32], String key_str, String iv_str) {
   byte iv[16];

@@ -17,7 +17,7 @@ uint8_t recv_req[32];
 uint8_t msg_out[32];
 
 String key_str = "yeahhhhbabyyyyyy";  // 16 bytes
-String iv_str  = "bigbyomboballs77";  // 16 bytes
+String iv_str  = "bigbyombomanss77";  // 16 bytes
 
 void do_encrypt(uint8_t msg[32], String key_str, String iv_str) {
   uint8_t iv[16];
